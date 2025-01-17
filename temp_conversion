@@ -1,0 +1,13 @@
+// Write a program to convert temperature in degree celsius to fahrenheit.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ float c,f;
+ clrscr();
+ printf("\n Enter temperature in celsius");
+ scanf("\n %f",&c);
+ f=(9/5*c)+32;
+ printf("\n The temperature in fahrenheit:%f",f);
+ getch();
+}
