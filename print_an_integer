@@ -1,0 +1,12 @@
+// Write a program to print an integer entered by  user.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int n;
+ clrscr();
+ print("\n Enter a number");
+ scanf("\n %d", &n);
+ printf("\n The integer number is %d",n);
+ getch();
+}
