@@ -1,0 +1,23 @@
+// Write  a program to peform all the arithmetic functions.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ int a, b, c;
+ clrscr();
+ printf("Enter two numbers");
+ scanf("%d%d",&a,&b);
+ c=a+b;
+ printf("\n Values after addition=%d",c);
+ c=a-b;
+ printf("\n Values after subtraction=%d",c);
+ c=a*b;
+ printf("\n Values after multiplication=%d",c);
+ c=a%b;
+ printf("\n Values after modulo divison=%d",c);
+ c=a/b;
+ printf("\n Values after division=%d",c);
+ printf("\ unary plus a=%d",++a);
+ printf("\n unary minus b=%d",--b);
+ getch();
+}
