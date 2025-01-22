@@ -7,8 +7,7 @@ void main()
  clrscr();
  printf("\n Enter first number");
  scanf("\n%d",&a);
- pr
- intf("\nEnter second number");
+ printf("\nEnter second number");
  scanf("\n%d",&b);
  printf("\nEnter third number");
  scanf("\n%d",&c);
