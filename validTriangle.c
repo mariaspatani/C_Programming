@@ -5,7 +5,7 @@ int main()
     int angle1,angle2,angle3 ;
     int sum;
     printf("\n Enter three angles");
-    scanf("\n %f%f%f",&angle1,&angle2,&angle3);
+    scanf("\n %d%d%d",&angle1,&angle2,&angle3);
     sum= angle1+angle2+angle3;
     if (sum==180)
     {
