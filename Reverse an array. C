@@ -1,0 +1,25 @@
+/* Name: Maria
+   Date: 07/02/2025
+   Reverse the elements in an array.
+*/
+#include<stdio.h>
+int main()
+{
+    int n, i;
+    printf("\n no. of elements in array");
+    scanf("\n %d",&n);
+    int array[n];
+    printf("\n The elements are\n");
+    for(i=0;i<n;i++)
+    {
+      scanf("\n%d",&array[n-i-1]);
+    }
+    printf("\n The array is:");
+    for(i=0;i<n;i++)
+    {
+        printf("\t%d", array[n-i-1]);
+    }
+    
+    return 0;
+    
+}
