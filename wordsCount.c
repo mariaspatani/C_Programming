@@ -10,7 +10,7 @@ int main()
   fgets(inputString,sizeof(inputString),stdin);
   for(int i=0;inputString[i]!='\0';i++)
   {
-    char ch;
+    char ch =inputString[i];
     if(inputString[i]>='A'&& inputString[i]<='Z')
     {
       ch=ch+32;//Convert uppercase to lowercase
