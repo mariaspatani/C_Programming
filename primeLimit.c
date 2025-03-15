@@ -19,7 +19,7 @@ int main(){
 		}
 		if(flag==0)
 	        {
-		printf("\nThe numbers are:%d",i);
+		printf("\n%d",i);
 	        }
 	        
 	}
