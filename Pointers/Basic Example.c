@@ -14,3 +14,7 @@ Address of a: 0x7ffed5e999b4
 Value stored in p: 0x7ffed5e999b4
 Value at address p: 10
 */
+/*
+& → address operator
+* → dereference operator
+*/
